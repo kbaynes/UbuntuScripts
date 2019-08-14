@@ -10,6 +10,7 @@ function mf() {
 	mhello_about;
 	mtest_about;
 	msp_about;
+	mlh_about;
 }
 function mf_about() {
 	echo -e "${bold}mf${normal}: My Function List"
@@ -37,4 +38,11 @@ function msp() {
 }
 function msp_about() {
 	echo -e "${bold}msp${normal}: my short prompt, shortens the prompt"
+}
+
+function mlh() {
+	ls -alh
+}
+function mlh_about() {
+	echo -e "${bold}mlh${normal}: list with details and human readable file size"
 }
